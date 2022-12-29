@@ -1,0 +1,60 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+.home-page{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/images/mypagebackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .info-text{
+    width: 70rem;
+    position: absolute;
+    left: 250px;
+    bottom: 70px;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.589);
+    border-left: 2px solid rgba(255, 255, 255, 0.589);
+    .big-text{
+      width: 30vw;
+      position: absolute;
+      bottom: 20px;
+      color: white;
+      h1{
+        font-size: 9rem;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 7rem;
+        text-transform: uppercase;
+        letter-spacing: -0.5rem;
+        .my-name{
+            letter-spacing: 0.5rem;
+            padding: 30px;
+            font-weight: 600;
+            opacity: 50%;
+            font-family: 'The Girl Next Door';
+            transition: color 2s font-weight 5s;
+            &:hover{
+                color: orangered;
+                // font-weight: 700;
+            }
+        }
+      }
+    }
+  }
+  .container{
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+  }
+}

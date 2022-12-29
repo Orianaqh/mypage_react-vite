@@ -1,0 +1,52 @@
+.about-page{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/images/mypagebackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .about-info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70rem;
+    position: absolute;
+    left: 250px;
+    bottom: 70px;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.589);
+    border-left: 2px solid rgba(255, 255, 255, 0.589);
+    .about-text{
+      .intro-aboutme{
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        font-size: 5rem;
+        line-height: 4rem;
+      }
+      width: 30vw;
+      position: absolute;
+      bottom: 20px;
+      color: white;
+      font-size: 1.7rem;
+      // line-height: 2.2rem;
+    }
+    .button-home{
+      font-family: 'The Girl Next Door';
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.295);
+      text-align: center;
+      border-radius: 33px;
+
+      letter-spacing: 0.5rem;
+      font-weight: 700;
+      opacity: 60%;
+      &:hover{
+        color: #ff5e00 ;
+        background-color: rgba(0, 0, 0, 0.616);
+        border-radius: 33px;
+    }
+    }
+  }
+}
