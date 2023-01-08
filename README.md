@@ -5,6 +5,8 @@ Eine simple page ist immer eine gute Übung, deswegen mache ich sie noch ein mal
 
 ---
 
+![image](https://user-images.githubusercontent.com/92849517/211198646-ac1d6acb-db03-49a9-8689-0dae3b61eb67.png)
+
 ## Packages
 
 -npm create vite@latest
